@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación con divs</title>
+        <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos_maquetacion.css">
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css'>
+<link rel="shortcut icon" href="img/company.avif" type="image/x-icon">
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- COLOCA TU LOGO AQUÍ -->
+                <a href="index.html">
+                    <img src="img/company.avif"  alt="Coloca tu logo aquí">
+                </a>
+            </div>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fi fi-rr-home"></i></i>Inicio</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#"><i class="fi fi-ss-user"></i></i>Servicios ▾</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Diseño Digital</a></li>
+                            <li><a href="#">Páginas Web</a></li>
+                            <li><a href="#">Mantenimiento y redes de cómputo</a></li>
+                        </ul>
+                    </li>
+                   
+
+                    <li><a href="#"><i class="fi fi-rr-document"></i>Proyectos</a></li>
+                    <li><a href="#"><i class="fi fi-brands-telegram"></i>Contacto</a></li>
+                    <li><a href="login.html" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding: 100px 0;">
+        <h1 style="font-size: 3rem; margin-bottom: 20px;">Maquetación con divs</h1>
+        <p style="font-size: 1.2rem; max-width: 600px;">Esta plantilla es responsiva, tiene un menú con animaciones suaves y un pie de página profesional dividido en 3 secciones.</p>
+        <!-- SECCIÓN DE NOTICIAS Y EVENTOS -->
+        <section class="seccion-info">
+            
+            <!-- FILA DE 2 CUADROS (Noticias Destacadas) -->
+            <h2 class="titulo-seccion">Noticias Recientes</h2>
+            <div class="contenedor-dos">
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder"><img src="img/foca1.webp" alt="foca1"></div>
+                    <h3>Día Internacional de las Focas</h3>
+                    <p>El Día Internacional de las Focas se celebra el 22 de marzo y está dedicado a dar a conocer mejor a estos mamíferos marinos, su forma de vida y su importancia dentro de los ecosistemas oceánicos.</p>
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder"><img src="img/foca2.jpeg" alt="foca2"></div>
+                    <h3>Focas</h3>
+                    <p>La foca también conocida como fócidos o Phocidae, las focas forman parte de la familia de los pinnípedos marinos, es decir, mamíferos que se han adaptado a la vida acuática. Los pinnípedos se dividen en tres familias: los otáridos conformados por osos y leones marinos, los odobénidos que son las morsas y por último los fócidos o focas.</p>
+                    
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+            </div>
+
+            <!-- FILA DE 3 CUADROS (Eventos o Info Rápida) -->
+            <h2 class="titulo-seccion">Próximos Eventos</h2>
+            <div class="contenedor-tres">
+    <!-- Cuadro con Imagen -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <img src="img/foca3.jpg" alt="foca3">
+        </div>
+        <h4>Presentacion de foca</h4>
+        <p>15 de Mayo - 10:00 AM</p>
+    </div>
+
+    <!-- Cuadro con Video -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <video controls>
+                <source src="video/videoplayback.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+        <h4>Foca aplaudiendo</h4>
+        <p>20 de Mayo - 04:00 PM</p>
+    </div>
+
+    <!-- Cuadro con Info Rápida (Solo texto si quieres) -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <img src="img/foca4.jpg" alt="Evento">
+        </div>
+        <h4>Exibicion de focas</h4>
+        <p>30 de Mayo - 09:00 AM</p>
+    </div>
+</div>
+</section>
+        
+    </main>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <p>📍 Av. de los Emprendedores 404</p>
+                    <p>📞 +52 993 123 4567</p>
+                    <p>✉️ hola@tupagina.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Ubicación</h4>
+                    <p>Villahermosa, Tabasco</p>
+                    <p>México, CP 86000</p>
+                    <a href="#">Ver en Google Maps</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Aviso de Privacidad</a></li>
+                        <li><a href="#">Soporte al Cliente</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Nombre del alumno. Grado y grupo. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
