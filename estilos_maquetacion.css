@@ -257,7 +257,9 @@ footer {
     color: #555;
     font-size: 0.85rem;
 }
-  .seccion-info {
+ /* ESTILOS CSS PARA ESTA SECCIÓN (Agrégalos a tu bloque <style>) */
+
+    .seccion-info {
         padding: 40px 0;
     }
 
