@@ -112,7 +112,24 @@
       text-decoration: underline; /* Subrayado al pasar el cursor */
     }
 
-    
+    .btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+.btn-whatsapp:hover {
+    background-color: #128c7e;
+}
     
   
     
